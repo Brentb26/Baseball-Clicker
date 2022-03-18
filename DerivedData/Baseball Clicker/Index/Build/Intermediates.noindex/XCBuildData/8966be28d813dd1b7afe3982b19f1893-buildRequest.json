@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "fdd9d877c2e42bb2732e170314a9df3fbefc94aa9811cbd126b9570197daba95"
+    },
+    {
+      "guid" : "fdd9d877c2e42bb2732e170314a9df3fca1af799e550e872083d849ec431cf78"
+    },
+    {
+      "guid" : "fdd9d877c2e42bb2732e170314a9df3f1ec5b1978ae826e0c75e2f2f3a82a490"
+    }
+  ],
+  "containerPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/Baseball Clicker.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Index/Build/Products",
+      "derivedDataPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/DerivedData/Baseball Clicker/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Baseball Clicker in Baseball Clicker, no dependencies
+Baseball Clicker in Baseball Clicker, no dependencies
+Baseball ClickerTests in Baseball Clicker, depends on:
+Baseball Clicker in Baseball Clicker (explicit)
+Baseball ClickerTests in Baseball Clicker, depends on:
+Baseball Clicker in Baseball Clicker (explicit)
+Baseball ClickerTests in Baseball Clicker, no dependencies
+Baseball ClickerUITests in Baseball Clicker, depends on:
+Baseball Clicker in Baseball Clicker (explicit)
+Baseball ClickerUITests in Baseball Clicker, depends on:
+Baseball Clicker in Baseball Clicker (explicit)
+Baseball ClickerUITests in Baseball Clicker, no dependencies

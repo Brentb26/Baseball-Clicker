@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>49E79BE3-2BFE-4824-B60E-56E88A5C7740</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
+			<key>fileName</key>
+			<string>49E79BE3-2BFE-4824-B60E-56E88A5C7740.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Add Package</string>
+			<key>timeStartedRecording</key>
+			<real>669214787.76281202</real>
+			<key>timeStoppedRecording</key>
+			<real>669214803.31089997</real>
+			<key>title</key>
+			<string>Add Package</string>
+			<key>uniqueIdentifier</key>
+			<string>49E79BE3-2BFE-4824-B60E-56E88A5C7740</string>
+		</dict>
+		<key>90A96FE0-6B49-4EF0-8AFA-0B9751DA5185</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
+			<key>fileName</key>
+			<string>90A96FE0-6B49-4EF0-8AFA-0B9751DA5185.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Add Package</string>
+			<key>timeStartedRecording</key>
+			<real>669214485.93964195</real>
+			<key>timeStoppedRecording</key>
+			<real>669214547.26728106</real>
+			<key>title</key>
+			<string>Add Package</string>
+			<key>uniqueIdentifier</key>
+			<string>90A96FE0-6B49-4EF0-8AFA-0B9751DA5185</string>
+		</dict>
+		<key>E3AF4160-C2AB-41A1-8635-DE9742964A82</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.PackageLog</string>
+			<key>fileName</key>
+			<string>E3AF4160-C2AB-41A1-8635-DE9742964A82.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Add Package</string>
+			<key>timeStartedRecording</key>
+			<real>669214606.225914</real>
+			<key>timeStoppedRecording</key>
+			<real>669214750.20328403</real>
+			<key>title</key>
+			<string>Add Package</string>
+			<key>uniqueIdentifier</key>
+			<string>E3AF4160-C2AB-41A1-8635-DE9742964A82</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

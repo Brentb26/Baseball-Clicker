@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "8c4cc6af5aa52971e01f674ffd838d93ae7f5fc1782ce61508382f6e0020383f"
+build_start_time: [1647521972, 92741012]
+build_end_time: [1647521976, 439633846]
+inputs:
+  "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/Baseball Clicker/AppDelegate.swift": [1647264811, 220718383]
+  "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/Baseball Clicker/SceneDelegate.swift": [1647264811, 239439249]
+  "/Users/brent.blitek22/Documents/side projects/Baseball Clicker/Baseball Clicker/ViewController.swift": [1647264811, 241932392]

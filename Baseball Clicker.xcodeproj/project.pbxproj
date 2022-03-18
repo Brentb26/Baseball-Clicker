@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24529F2027E0C169004F3F99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24529F1F27E0C169004F3F99 /* GoogleService-Info.plist */; };
+		245F0E1027E36A0C00E7272D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245F0E0F27E36A0C00E7272D /* SecondViewController.swift */; };
+		248F089927DF7BAB00941224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F089827DF7BAB00941224 /* AppDelegate.swift */; };
+		248F089B27DF7BAB00941224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F089A27DF7BAB00941224 /* SceneDelegate.swift */; };
+		248F089D27DF7BAB00941224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F089C27DF7BAB00941224 /* ViewController.swift */; };
+		248F08A027DF7BAB00941224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248F089E27DF7BAB00941224 /* Main.storyboard */; };
+		248F08A327DF7BAB00941224 /* Baseball_Clicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 248F08A127DF7BAB00941224 /* Baseball_Clicker.xcdatamodeld */; };
+		248F08A527DF7BAD00941224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248F08A427DF7BAD00941224 /* Assets.xcassets */; };
+		248F08A827DF7BAD00941224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248F08A627DF7BAD00941224 /* LaunchScreen.storyboard */; };
+		248F08B327DF7BAD00941224 /* Baseball_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F08B227DF7BAD00941224 /* Baseball_ClickerTests.swift */; };
+		248F08BD27DF7BAE00941224 /* Baseball_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F08BC27DF7BAE00941224 /* Baseball_ClickerUITests.swift */; };
+		248F08BF27DF7BAE00941224 /* Baseball_ClickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248F08BE27DF7BAE00941224 /* Baseball_ClickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248F08AF27DF7BAD00941224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248F088D27DF7BAB00941224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248F089427DF7BAB00941224;
+			remoteInfo = "Baseball Clicker";
+		};
+		248F08B927DF7BAE00941224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248F088D27DF7BAB00941224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248F089427DF7BAB00941224;
+			remoteInfo = "Baseball Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24529F1F27E0C169004F3F99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		245F0E0F27E36A0C00E7272D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		248F089527DF7BAB00941224 /* Baseball Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baseball Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248F089827DF7BAB00941224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248F089A27DF7BAB00941224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		248F089C27DF7BAB00941224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248F089F27DF7BAB00941224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248F08A227DF7BAB00941224 /* Baseball_Clicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Baseball_Clicker.xcdatamodel; sourceTree = "<group>"; };
+		248F08A427DF7BAD00941224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248F08A727DF7BAD00941224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248F08A927DF7BAD00941224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248F08AE27DF7BAD00941224 /* Baseball ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baseball ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248F08B227DF7BAD00941224 /* Baseball_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_ClickerTests.swift; sourceTree = "<group>"; };
+		248F08B827DF7BAE00941224 /* Baseball ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baseball ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248F08BC27DF7BAE00941224 /* Baseball_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_ClickerUITests.swift; sourceTree = "<group>"; };
+		248F08BE27DF7BAE00941224 /* Baseball_ClickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_ClickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248F089227DF7BAB00941224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08AB27DF7BAD00941224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08B527DF7BAE00941224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248F088C27DF7BAB00941224 = {
+			isa = PBXGroup;
+			children = (
+				248F089727DF7BAB00941224 /* Baseball Clicker */,
+				248F08B127DF7BAD00941224 /* Baseball ClickerTests */,
+				248F08BB27DF7BAE00941224 /* Baseball ClickerUITests */,
+				248F089627DF7BAB00941224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248F089627DF7BAB00941224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248F089527DF7BAB00941224 /* Baseball Clicker.app */,
+				248F08AE27DF7BAD00941224 /* Baseball ClickerTests.xctest */,
+				248F08B827DF7BAE00941224 /* Baseball ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248F089727DF7BAB00941224 /* Baseball Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				248F089827DF7BAB00941224 /* AppDelegate.swift */,
+				248F089A27DF7BAB00941224 /* SceneDelegate.swift */,
+				248F089C27DF7BAB00941224 /* ViewController.swift */,
+				248F089E27DF7BAB00941224 /* Main.storyboard */,
+				245F0E0F27E36A0C00E7272D /* SecondViewController.swift */,
+				248F08A427DF7BAD00941224 /* Assets.xcassets */,
+				248F08A627DF7BAD00941224 /* LaunchScreen.storyboard */,
+				248F08A927DF7BAD00941224 /* Info.plist */,
+				24529F1F27E0C169004F3F99 /* GoogleService-Info.plist */,
+				248F08A127DF7BAB00941224 /* Baseball_Clicker.xcdatamodeld */,
+			);
+			path = "Baseball Clicker";
+			sourceTree = "<group>";
+		};
+		248F08B127DF7BAD00941224 /* Baseball ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				248F08B227DF7BAD00941224 /* Baseball_ClickerTests.swift */,
+			);
+			path = "Baseball ClickerTests";
+			sourceTree = "<group>";
+		};
+		248F08BB27DF7BAE00941224 /* Baseball ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				248F08BC27DF7BAE00941224 /* Baseball_ClickerUITests.swift */,
+				248F08BE27DF7BAE00941224 /* Baseball_ClickerUITestsLaunchTests.swift */,
+			);
+			path = "Baseball ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248F089427DF7BAB00941224 /* Baseball Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248F08C227DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball Clicker" */;
+			buildPhases = (
+				248F089127DF7BAB00941224 /* Sources */,
+				248F089227DF7BAB00941224 /* Frameworks */,
+				248F089327DF7BAB00941224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baseball Clicker";
+			productName = "Baseball Clicker";
+			productReference = 248F089527DF7BAB00941224 /* Baseball Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248F08AD27DF7BAD00941224 /* Baseball ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248F08C527DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball ClickerTests" */;
+			buildPhases = (
+				248F08AA27DF7BAD00941224 /* Sources */,
+				248F08AB27DF7BAD00941224 /* Frameworks */,
+				248F08AC27DF7BAD00941224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248F08B027DF7BAD00941224 /* PBXTargetDependency */,
+			);
+			name = "Baseball ClickerTests";
+			productName = "Baseball ClickerTests";
+			productReference = 248F08AE27DF7BAD00941224 /* Baseball ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		248F08B727DF7BAE00941224 /* Baseball ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248F08C827DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball ClickerUITests" */;
+			buildPhases = (
+				248F08B427DF7BAE00941224 /* Sources */,
+				248F08B527DF7BAE00941224 /* Frameworks */,
+				248F08B627DF7BAE00941224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248F08BA27DF7BAE00941224 /* PBXTargetDependency */,
+			);
+			name = "Baseball ClickerUITests";
+			productName = "Baseball ClickerUITests";
+			productReference = 248F08B827DF7BAE00941224 /* Baseball ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248F088D27DF7BAB00941224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					248F089427DF7BAB00941224 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					248F08AD27DF7BAD00941224 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 248F089427DF7BAB00941224;
+					};
+					248F08B727DF7BAE00941224 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 248F089427DF7BAB00941224;
+					};
+				};
+			};
+			buildConfigurationList = 248F089027DF7BAB00941224 /* Build configuration list for PBXProject "Baseball Clicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248F088C27DF7BAB00941224;
+			productRefGroup = 248F089627DF7BAB00941224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248F089427DF7BAB00941224 /* Baseball Clicker */,
+				248F08AD27DF7BAD00941224 /* Baseball ClickerTests */,
+				248F08B727DF7BAE00941224 /* Baseball ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248F089327DF7BAB00941224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248F08A827DF7BAD00941224 /* LaunchScreen.storyboard in Resources */,
+				24529F2027E0C169004F3F99 /* GoogleService-Info.plist in Resources */,
+				248F08A527DF7BAD00941224 /* Assets.xcassets in Resources */,
+				248F08A027DF7BAB00941224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08AC27DF7BAD00941224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08B627DF7BAE00941224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248F089127DF7BAB00941224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248F089D27DF7BAB00941224 /* ViewController.swift in Sources */,
+				248F089927DF7BAB00941224 /* AppDelegate.swift in Sources */,
+				248F089B27DF7BAB00941224 /* SceneDelegate.swift in Sources */,
+				245F0E1027E36A0C00E7272D /* SecondViewController.swift in Sources */,
+				248F08A327DF7BAB00941224 /* Baseball_Clicker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08AA27DF7BAD00941224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248F08B327DF7BAD00941224 /* Baseball_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248F08B427DF7BAE00941224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248F08BF27DF7BAE00941224 /* Baseball_ClickerUITestsLaunchTests.swift in Sources */,
+				248F08BD27DF7BAE00941224 /* Baseball_ClickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248F08B027DF7BAD00941224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248F089427DF7BAB00941224 /* Baseball Clicker */;
+			targetProxy = 248F08AF27DF7BAD00941224 /* PBXContainerItemProxy */;
+		};
+		248F08BA27DF7BAE00941224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248F089427DF7BAB00941224 /* Baseball Clicker */;
+			targetProxy = 248F08B927DF7BAE00941224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248F089E27DF7BAB00941224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248F089F27DF7BAB00941224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248F08A627DF7BAD00941224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248F08A727DF7BAD00941224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248F08C027DF7BAE00941224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248F08C127DF7BAE00941224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248F08C327DF7BAE00941224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baseball Clicker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		248F08C427DF7BAE00941224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baseball Clicker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		248F08C627DF7BAE00941224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball Clicker.app/Baseball Clicker";
+			};
+			name = Debug;
+		};
+		248F08C727DF7BAE00941224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball Clicker.app/Baseball Clicker";
+			};
+			name = Release;
+		};
+		248F08C927DF7BAE00941224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baseball Clicker";
+			};
+			name = Debug;
+		};
+		248F08CA27DF7BAE00941224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5558S8WTY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Baseball-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baseball Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248F089027DF7BAB00941224 /* Build configuration list for PBXProject "Baseball Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248F08C027DF7BAE00941224 /* Debug */,
+				248F08C127DF7BAE00941224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248F08C227DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248F08C327DF7BAE00941224 /* Debug */,
+				248F08C427DF7BAE00941224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248F08C527DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248F08C627DF7BAE00941224 /* Debug */,
+				248F08C727DF7BAE00941224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248F08C827DF7BAE00941224 /* Build configuration list for PBXNativeTarget "Baseball ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248F08C927DF7BAE00941224 /* Debug */,
+				248F08CA27DF7BAE00941224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		248F08A127DF7BAB00941224 /* Baseball_Clicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				248F08A227DF7BAB00941224 /* Baseball_Clicker.xcdatamodel */,
+			);
+			currentVersion = 248F08A227DF7BAB00941224 /* Baseball_Clicker.xcdatamodel */;
+			path = Baseball_Clicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 248F088D27DF7BAB00941224 /* Project object */;
+}

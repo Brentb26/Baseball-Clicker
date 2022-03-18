@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>10041EE2-9A01-45BD-B93E-23503495D3BE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>10041EE2-9A01-45BD-B93E-23503495D3BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Baseball Clicker Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>669214776.72021699</real>
+			<key>timeStoppedRecording</key>
+			<real>669214776.73075497</real>
+			<key>title</key>
+			<string>Baseball Clicker Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>10041EE2-9A01-45BD-B93E-23503495D3BE</string>
+		</dict>
+		<key>5F030811-3088-4B3A-9DDC-CEE97EC1D2C6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>5F030811-3088-4B3A-9DDC-CEE97EC1D2C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Baseball ClickerUITests Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>669214771.98845506</real>
+			<key>timeStoppedRecording</key>
+			<real>669214776.67412198</real>
+			<key>title</key>
+			<string>Baseball ClickerUITests Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>5F030811-3088-4B3A-9DDC-CEE97EC1D2C6</string>
+		</dict>
+		<key>6AD5F9EC-65B8-4215-8114-7E2A943528B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>6AD5F9EC-65B8-4215-8114-7E2A943528B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Workspace Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>669214768.80530798</real>
+			<key>timeStoppedRecording</key>
+			<real>669214771.378649</real>
+			<key>title</key>
+			<string>Workspace Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>6AD5F9EC-65B8-4215-8114-7E2A943528B9</string>
+		</dict>
+		<key>FA23C7B0-F492-42D1-BE25-BC7FBCAA14D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>FA23C7B0-F492-42D1-BE25-BC7FBCAA14D3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Baseball ClickerTests Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>669214776.68267596</real>
+			<key>timeStoppedRecording</key>
+			<real>669214776.70617795</real>
+			<key>title</key>
+			<string>Baseball ClickerTests Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>FA23C7B0-F492-42D1-BE25-BC7FBCAA14D3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
